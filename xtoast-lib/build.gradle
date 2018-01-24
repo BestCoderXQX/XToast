@@ -37,5 +37,5 @@ publish {
     artifactId = 'maven'       // 工程名 ，自定义
     publishVersion = '1.0.0'         //版本号
     desc = '自定义吐司' //描述
-    website = 'https://github.com/BestCoderXQX/XWaveView' //github地址  你可以把你的项目push到你的github上 ， 项目的地址即这个地址
+    website = 'https://github.com/BestCoderXQX/XToast' //github地址  你可以把你的项目push到你的github上 ， 项目的地址即这个地址
 }

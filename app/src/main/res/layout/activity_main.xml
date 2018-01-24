@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="acffo.xqx.xtoast.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纯文本提示"
+        />
+
+    <Button
+        android:id="@+id/btnMsgImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带图标的文本提示"
+        />
+
+</LinearLayout>

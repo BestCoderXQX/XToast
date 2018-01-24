@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+apply plugin: 'com.novoda.bintray-release'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+}
+//添加
+publish {
+    userOrg = 'xqxlibrary'        // 组织名
+    groupId = 'acffo.xqx.xtoast_lib'  //类库的包名
+    artifactId = 'maven'       // 工程名 ，自定义
+    publishVersion = '1.0.0'         //版本号
+    desc = '自定义吐司' //描述
+    website = 'https://github.com/BestCoderXQX/XWaveView' //github地址  你可以把你的项目push到你的github上 ， 项目的地址即这个地址
+}

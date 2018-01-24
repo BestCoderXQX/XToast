@@ -105,10 +105,6 @@ public class XToastHelper {
         return instance;
     }
 
-    public XToastHelper setToastBg(int toastBg) {
-        XToastHelper.toastBg = toastBg;
-        return instance;
-    }
 
     public XToastHelper setTxtSize(int txtSize) {
         XToastHelper.txtSize = txtSize;

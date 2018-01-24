@@ -34,7 +34,7 @@ dependencies {
 publish {
     userOrg = 'xqxlibrary'        // 组织名
     groupId = 'acffo.xqx.xtoast_lib'  //类库的包名
-    artifactId = 'maven'       // 工程名 ，自定义
+    artifactId = 'xtoastlib'       // 工程名 ，自定义
     publishVersion = '1.0.0'         //版本号
     desc = '自定义吐司' //描述
     website = 'https://github.com/BestCoderXQX/XToast' //github地址  你可以把你的项目push到你的github上 ， 项目的地址即这个地址

@@ -23,8 +23,6 @@ null
 <br><br>
 # 使用方法：
 
-# 使用方法：
- 
  ### // 纯文字
  XToastHelper.getInstance()
              .setTxtColor(getResources().getColor(R.color.colorAccent))
@@ -41,4 +39,5 @@ null
               .showXToast(this,"这是提示文字" , R.mipmap.icon_about);
  
   ---------
+
 

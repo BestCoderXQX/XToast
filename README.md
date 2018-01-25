@@ -34,9 +34,10 @@ compile 'acffo.xqx.xtoast_lib:xtoastlib:1.0.0'
 ```
 <br><br>
 # 使用方法：
+
+### // 纯文字
 ```
- ### // 纯文字
- XToastHelper.getInstance()
+XToastHelper.getInstance()
              .setTxtColor(getResources().getColor(R.color.colorAccent))
              .setTxtSize(18)
              .setDuration(Toast.LENGTH_SHORT)
